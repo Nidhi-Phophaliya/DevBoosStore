@@ -13,11 +13,10 @@ spec:
         app: book-service
     spec:
       containers:
-        - name: book-service
-          image: nidhiphophaliya/book-service:latest
-          imagePullPolicy: Never       # ⛔ Don't pull from registry
-          ports:
-            - containerPort: 8082
+      - name: book-service
+        image: nidhiphophaliya/book-service:latest
+        ports:
+        - containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
@@ -28,5 +27,6 @@ spec:
   selector:
     app: book-service
   ports:
-    - port: 80
-      targetPort: 8082
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
