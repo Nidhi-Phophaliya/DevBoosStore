@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-18T00:04:56 IST" name="Book Service Suite" finished-at="2025-05-18T00:04:57 IST" duration-ms="1128">
+    <groups>
+    </groups>
+    <test started-at="2025-05-18T00:04:56 IST" name="Book Service Tests" finished-at="2025-05-18T00:04:57 IST" duration-ms="1128">
+      <class name="com.devbookstore.book.service.BookServiceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.devbookstore.book.service.BookServiceTest@623a8092]" started-at="2025-05-18T00:04:56 IST" name="setUp" finished-at="2025-05-18T00:04:57 IST" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindBookByTitle(java.lang.String)[pri:0, instance:com.devbookstore.book.service.BookServiceTest@623a8092]" started-at="2025-05-18T00:04:57 IST" name="testFindBookByTitle" data-provider="bookTitles" finished-at="2025-05-18T00:04:57 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Clean Code]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindBookByTitle -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.devbookstore.book.service.BookServiceTest@623a8092]" started-at="2025-05-18T00:04:57 IST" name="setUp" finished-at="2025-05-18T00:04:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindBookByTitle(java.lang.String)[pri:0, instance:com.devbookstore.book.service.BookServiceTest@623a8092]" started-at="2025-05-18T00:04:57 IST" name="testFindBookByTitle" data-provider="bookTitles" finished-at="2025-05-18T00:04:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Pragmatic Programmer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindBookByTitle -->
+        <test-method signature="testFindBookByTitle(java.lang.String)[pri:0, instance:com.devbookstore.book.service.BookServiceTest@623a8092]" started-at="2025-05-18T00:04:57 IST" name="testFindBookByTitle" data-provider="bookTitles" finished-at="2025-05-18T00:04:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Refactoring]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindBookByTitle -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.devbookstore.book.service.BookServiceTest@623a8092]" started-at="2025-05-18T00:04:57 IST" name="setUp" finished-at="2025-05-18T00:04:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.devbookstore.book.service.BookServiceTest@623a8092]" started-at="2025-05-18T00:04:57 IST" name="setUp" finished-at="2025-05-18T00:04:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetAllBooks()[pri:0, instance:com.devbookstore.book.service.BookServiceTest@623a8092]" started-at="2025-05-18T00:04:57 IST" name="testGetAllBooks" finished-at="2025-05-18T00:04:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllBooks -->
+        <test-method signature="testSaveBook()[pri:0, instance:com.devbookstore.book.service.BookServiceTest@623a8092]" started-at="2025-05-18T00:04:57 IST" name="testSaveBook" finished-at="2025-05-18T00:04:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveBook -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.devbookstore.book.service.BookServiceTest@623a8092]" started-at="2025-05-18T00:04:57 IST" name="setUp" finished-at="2025-05-18T00:04:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.devbookstore.book.service.BookServiceTest -->
+    </test> <!-- Book Service Tests -->
+  </suite> <!-- Book Service Suite -->
+</testng-results>

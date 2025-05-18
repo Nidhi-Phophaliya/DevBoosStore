@@ -1,0 +1,5 @@
+com\devbookstore\user\UserServiceApplication.class
+com\devbookstore\user\controller\UserController.class
+com\devbookstore\user\service\UserService.class
+com\devbookstore\user\model\User.class
+com\devbookstore\user\repository\UserRepository.class
